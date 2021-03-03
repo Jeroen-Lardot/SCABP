@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="single is-preload">
+	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -59,6 +59,86 @@
 					</section>
 
 				<!-- Main -->
+
+				<div>
+					<section id="comment-section">
+
+						<header>
+							<h3>
+								Comment Section
+							</h3>
+						</header>
+		
+						<ul class="comment-list"> 
+							<li class="comment">
+		
+								<div class="vcard bio">
+									<img src="images/avatars/female_comment.png" alt="Image placeholder">
+								</div>
+		
+								<div class="comment-body">
+									<h3>Rebecca Taillieu</h3>
+									<div class="meta mb-3">March 3, 2021 at 2:21pm</div>
+									<p>Wow! What an interesting topic!</p>
+									<p><a href="#" class="reply">Reply</a></p>
+								</div>
+		
+								<ul class="children">
+									<li class="comment">
+		
+										<div class="vcard bio">
+										<img src="images/avatars/avatarjeroen.jpg" alt="Image placeholder">
+										</div>
+										<div class="comment-body">
+										<h3>Jeroen Lardot</h3>
+										<div class="meta mb-3">March 3, 2021 at 3:43pm</div>
+										<p>Definitely agree!</p>
+										<p><a href="#" class="reply">Reply</a></p>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+							<li class="comment">
+		
+								<div class="vcard bio">
+									<img src="images/avatars/avatarchenjian.jpg" alt="Image placeholder">
+								</div>
+		
+								<div class="comment-body">
+									<h3>Chenjian Wang</h3>
+									<div class="meta mb-3">March 3, 2021 at 3:21pm</div>
+									<p>Random comment</p>
+									<p><a href="#" class="reply">Reply</a></p>
+								</div>
+							</li>
+						</ul>
+		
+						<div class="comment-form-wrap">
+		
+							<h3 class="mb-5">Leave a comment</h3>
+		
+							<form action="#">
+		
+								<div class="form-group">
+									<label for="name">Name *</label>
+									<input type="text" class="form-control" id="name">
+								</div>
+		
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea name="" id="message" cols="30" rows="5" class="form-control"></textarea>
+								</div>
+		
+								<div class="form-group">
+									<input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+								</div>
+								</form>
+						</div>
+				</section>
+			</div>
+
+
 					<div id="main">
 
 						<!-- Post -->
@@ -76,8 +156,9 @@
 									</div>
 								</header>
 								<span class="image presented"><img src="images/headliners/magma.jpg" alt="" /></span>
-								<p>Alinea 1</p>
-								<p>Alinea 2</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et mi a tellus fringilla luctus ac sit amet tellus. Aliquam a ullamcorper ipsum, rhoncus euismod quam. Aliquam dictum turpis ac ipsum iaculis varius sit amet congue augue. Nunc ac magna risus. Cras rutrum purus volutpat est dignissim iaculis. Maecenas viverra arcu a pellentesque lobortis. Donec fermentum justo non lacinia consequat. Nunc tempus tincidunt mollis. Ut varius orci nec mattis bibendum. Mauris vehicula est sed pretium ullamcorper. Curabitur id sodales metus. Phasellus molestie posuere odio, a semper nibh dapibus accumsan. Cras blandit malesuada nisi sed suscipit. Pellentesque lobortis tellus et ornare gravida. Donec molestie mauris ligula, ac aliquam tellus auctor id.</p>
+								<p>Pellentesque et consequat purus. Donec neque mauris, pellentesque ac bibendum sed, dignissim vel ipsum. Vestibulum quam erat, ultricies nec ultrices quis, placerat ac orci. Aenean sagittis bibendum ornare. Vestibulum nisl sem, tempor id lacus et, sodales pharetra lorem. Curabitur at neque eu turpis interdum dictum. Donec ut lacus iaculis, maximus metus eu, venenatis leo. Sed fringilla risus vel leo placerat, eget tincidunt dui accumsan. Phasellus nisl elit, facilisis quis ultricies id, suscipit ac libero. Integer id placerat elit.</p>
+								<p>Morbi ac nulla id metus volutpat suscipit. Praesent in elementum dui, eu suscipit nibh. Maecenas aliquet tortor quis dolor elementum imperdiet. Fusce orci mi, pharetra fringilla nulla quis, bibendum cursus odio. Morbi maximus blandit purus, in vehicula sapien pellentesque eget. Aliquam turpis justo, lacinia eu rhoncus in, lobortis eu eros. Sed viverra eget leo consequat commodo. Mauris mauris enim, sagittis ac enim in, tristique gravida tortor. Pellentesque sollicitudin dui in dapibus ultrices. Integer congue orci eget pharetra feugiat. Curabitur fringilla tellus orci, sed iaculis massa feugiat nec. Donec ultrices placerat commodo.</p>
 								<footer>
 									<ul class="stats">
 										<li><a href="#">Astronomy</a></li>
@@ -86,64 +167,22 @@
 									</ul>
 								</footer>
 							</article>
-
-							<section>
-								<h3>Suggested Posts</h3>
-								<div class="article-mini-posts">
-
-									<!-- Mini Post -->
-										<article class="article-mini-post">
-											<header>
-												<h3><a href="single.html">How gravitational waves could solve some of the
-													Universe’s deepest mysteries</a></h3>
-												<time class="published" datetime="2015-10-20">Februari 24, 2020</time>
-												<a href="#" class="author"><img src="images/avatars/avatarjeroen.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/headliners/bhcollision.jpg" alt="" /></a>
-										</article>
-
-									<!-- Mini Post -->
-										<article class="article-mini-post">
-											<header>
-												<h3><a href="single.html">Solar flares and their impact</a></h3>
-												<time class="published" datetime="2015-10-19">Februari 24, 2021</time>
-												<a href="#" class="author"><img src="images/avatars/avatarjeroen.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/headliners/solarflare.jpg" alt="" /></a>
-										</article>
-	
-									<!-- Mini Post -->
-										<article class="article-mini-post">
-											<header>
-												<h3><a href="single.html">Terrestrial Magma Ocean Origin Of The Moon</a></h3>
-												<time class="published" datetime="2015-10-19">Februari 24, 2021</time>
-												<a href="#" class="author"><img src="images/avatars/avatarjeroen.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/headliners/magma.jpg" alt="" /></a>
-										</article>
-
-							</section>
 					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-					</section>
-
 			</div>
 
+
+			
+
+
+
+
+
+			
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/main.js"></script>		
 	</body>
 </html>

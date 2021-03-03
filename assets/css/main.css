@@ -3865,40 +3865,40 @@ input, select, textarea {
 
 		}
 
-		#sideimagebar {
-			margin-right: 4em;
-			min-width: 22em;
-			width: 22em;
-			padding: 1em 1em 1em 1em;
+#sideimagebar {
+	margin-right: 4em;
+	min-width: 22em;
+	width: 22em;
+	padding: 1em 1em 1em 1em;
 
-	
-			position: relative;
+
+	position: relative;
+}
+
+	#sideimagebar > * {
+		border-top: solid 1px rgba(160, 160, 160, 0.3);
+		margin: 3em 0 0 0;
+		padding: 3em 0 0 0;
+	}
+
+	#sideimagebar > :first-child {
+		border-top: 0;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#sideimagebar {
+			border-top: solid 1px rgba(160, 160, 160, 0.3);
+			margin: 3em 0 0 0;
+			min-width: 0;
+			padding: 3em 0 0 0;
+			width: 100%;
+			overflow-x: hidden;
 		}
-	
-			#sideimagebar > * {
-				border-top: solid 1px rgba(160, 160, 160, 0.3);
-				margin: 3em 0 0 0;
-				padding: 3em 0 0 0;
-			}
-	
-			#sideimagebar > :first-child {
-				border-top: 0;
-				margin-top: 0;
-				padding-top: 0;
-			}
-	
-			@media screen and (max-width: 1280px) {
-	
-				#sideimagebar {
-					border-top: solid 1px rgba(160, 160, 160, 0.3);
-					margin: 3em 0 0 0;
-					min-width: 0;
-					padding: 3em 0 0 0;
-					width: 100%;
-					overflow-x: hidden;
-				}
-	
-			}
+
+	}
 		
 
 /* Intro */
@@ -4203,3 +4203,133 @@ input, select, textarea {
 				}
 
 		}
+
+/* Comment Section*/
+
+
+
+	#comment-section{
+		margin-left: 4em;
+		min-width: 25.3em;
+		width: 25.3em;
+	
+		background: #f8f9fa;
+		border: solid 1px rgba(160, 160, 160, 0.3);
+		position: relative;
+		padding: 1em 1em 1em 1em ;
+	}
+
+	#comment-section > * {
+		border-top: solid 1px rgba(160, 160, 160, 0.3);
+		margin: 1em 0 0 0;
+		padding: 1em 0 0 0;
+	}
+
+	#comment-section > :first-child {
+		border-top: 0;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	#comment-section header h3{
+		font-size: xx-large;
+		margin-bottom: 1rem !important;
+	}
+
+		#comment-section .comment-form-wrap {
+			clear: both; 
+			padding-top: 3rem !important;
+		}
+
+			#comment-section .comment-form-wrap header h3{
+				margin-bottom: 3rem !important; 
+			}
+
+			#comment-section .comment-form-wrap form{
+				padding: 3rem !important;
+				background: #f8f9fa !important;
+			}
+
+				#comment-section .comment-form-wrap .form-group{
+					margin-bottom: 1rem;
+				}
+
+					#comment-section .comment-form-wrap .form-group .form-control{
+						margin-bottom: 1rem;
+					}
+
+		#comment-section .comment-list {
+			padding-top: 2em;
+			margin: 0; 
+		}
+
+			
+		#comment-section .comment-list li {
+			padding: 0;
+			margin: 0 0 30px 0;
+			float: left;
+			width: 100%;
+			clear: both;
+			list-style: none; 
+		}
+
+			#comment-section .comment-list .children {
+				padding: 50px 0 0 40px;
+				margin: 0;
+				float: left;
+				width: 100%; 
+			}
+
+			#comment-section .comment-list .vcard {
+				width: 80px;
+				float: left; 
+			}
+				#comment-section .comment-list li .vcard img {
+					width: 50px;
+					border-radius: 50%; 
+				}
+
+				#comment-section .comment-list li .comment-body {
+					float: right;
+					width: calc(100% - 80px); 
+				}
+
+				#comment-section .comment-list li .comment-body h3 {
+					font-size: 20px; 
+				}
+
+					#comment-section .comment-list li .comment-body .meta {
+						text-transform: uppercase;
+						font-size: 13px;
+						letter-spacing: .1em;
+						color: #ccc; 
+					}
+
+					#comment-section .comment-list li .comment-body .reply {
+						padding: 5px 10px;
+						background: #e6e6e6;
+						color: #000000;
+						text-transform: uppercase;
+						font-size: 11px;
+						letter-spacing: .1em;
+						font-weight: 400;
+						border-radius: 4px; 
+					}
+
+						#comment-section .comment-list li .comment-body .reply:hover {
+							color: #fff;
+							background: black; 
+						}
+	  
+	@media screen and (max-width: 1280px) {
+
+		#comment-section {
+			border-top: solid 1px rgba(160, 160, 160, 0.3);
+			margin: 3em 0 0 0;
+			min-width: 0;
+			padding: 3em 0 0 0;
+			width: 100%;
+			overflow-x: hidden;
+		}
+
+	}					
