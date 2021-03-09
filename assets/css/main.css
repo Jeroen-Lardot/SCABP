@@ -2575,6 +2575,103 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+
+/* Front Image */
+
+.frontimage {
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+
+	.frontimage img {
+		display: block;
+	}
+
+	.frontimage.left, .frontimage.right {
+		max-width: 40%;
+	}
+
+		.frontimage.left img, .frontimage.right img {
+			width: 100%;
+		}
+
+	.frontimage.left {
+		float: left;
+		padding: 0 1.5em 1em 0;
+		top: 0.25em;
+	}
+
+	.frontimage.right {
+		float: right;
+		padding: 0 0 1em 1.5em;
+		top: 0.25em;
+	}
+
+	.frontimage.fit {
+		display: block;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		.frontimage.fit img {
+			width: 100%;
+		}
+
+	.frontimage.featured {
+		display: block;
+		margin: 0 0 3em 0em;
+		width: 100%;
+		
+	}
+
+		.frontimage.featured img {
+			width: 100%;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.frontimage.featured {
+				margin: 0 0 1.5em 0;
+			}
+
+		}
+
+	.frontimage.presented {
+		display: block;
+		margin: 0 0 3em 0;
+		width: 100%;
+		
+	}
+
+		.frontimage.presented img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 70%;
+			
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.frontimage.presented {
+				margin: 0 0 1.5em 0;
+			}
+
+		}
+
+
+	.frontimage.main {
+		display: block;
+		margin: 0 0 3em 0;
+		width: 100%;
+	}
+
+		.frontimage.main img {
+			width: 100%;
+		}
+
 /* List */
 
 	ol {
