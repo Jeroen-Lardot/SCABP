@@ -1820,9 +1820,12 @@ input, select, textarea {
 
 
 
+
+
+
 /* Left Author*/
 
-		.leftauthor {
+		.leftauthorrebecca {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1841,38 +1844,35 @@ input, select, textarea {
 			justify-content: flex-end;
 			border-bottom: 0;
 			font-family: "Raleway", Helvetica, sans-serif;
-			font-size: 0.6em;
+			font-size: 0.7em;
 			font-weight: 400;
 			letter-spacing: 0.25em;
 			text-transform: uppercase;
 			white-space: nowrap;
 		}
 	
-			.leftauthor .name {
+			.leftauthorrebecca .name {
 				-moz-transition: border-bottom-color 0.2s ease;
 				-webkit-transition: border-bottom-color 0.2s ease;
 				-ms-transition: border-bottom-color 0.2s ease;
 				transition: border-bottom-color 0.2s ease;
-				border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
 				display: block;
-				margin: 0 1.5em 0 0;
+				margin: 0 26.4em 0 0;
 			}
 	
-			.leftauthor img {
+			.leftauthorrebecca img {
 				border-radius: 100%;
 				display: block;
 				width: 20em;
 			}
 	
-			.leftauthor:hover .name {
+			.leftauthorrebecca:hover .name {
 				border-bottom-color: transparent;
 			}
 
+/* Left Author*/
 
-
-/* right Author*/
-
-.rightauthor {
+.leftauthorwang {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -1891,32 +1891,130 @@ input, select, textarea {
 	justify-content: flex-end;
 	border-bottom: 0;
 	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.6em;
+	font-size: 0.7em;
 	font-weight: 400;
 	letter-spacing: 0.25em;
 	text-transform: uppercase;
 	white-space: nowrap;
 }
 
-	.rightauthor .name {
+	.leftauthorwang .name {
 		-moz-transition: border-bottom-color 0.2s ease;
 		-webkit-transition: border-bottom-color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease;
 		transition: border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
 		display: block;
-		margin: 0 1.5em 0 0;
+		margin: 0 24em 0 0;
 	}
 
-	.rightauthor img {
+	.leftauthorwang img {
 		border-radius: 100%;
 		display: block;
 		width: 20em;
 	}
 
-	.rightauthor:hover .name {
+	.leftauthorwang:hover .name {
 		border-bottom-color: transparent;
 	}
+
+
+/* Left Author*/
+
+.leftauthorjiehjang {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-moz-justify-content: -moz-flex-end;
+	-webkit-justify-content: -webkit-flex-end;
+	-ms-justify-content: -ms-flex-end;
+	justify-content: flex-end;
+	border-bottom: 0;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-weight: 400;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+	.leftauthorjiehjang .name {
+		-moz-transition: border-bottom-color 0.2s ease;
+		-webkit-transition: border-bottom-color 0.2s ease;
+		-ms-transition: border-bottom-color 0.2s ease;
+		transition: border-bottom-color 0.2s ease;
+		display: block;
+		margin: 0 16em 0 0;
+	}
+
+	.leftauthorjiehjang img {
+		border-radius: 100%;
+		display: block;
+		width: 20em;
+	}
+
+	.leftauthorjiehjang:hover .name {
+		border-bottom-color: transparent;
+	}
+
+/* Left Author*/
+
+.leftauthorjeroen {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-moz-justify-content: -moz-flex-end;
+	-webkit-justify-content: -webkit-flex-end;
+	-ms-justify-content: -ms-flex-end;
+	justify-content: flex-end;
+	border-bottom: 0;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-weight: 400;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+	.leftauthorjeroen .name {
+		-moz-transition: border-bottom-color 0.2s ease;
+		-webkit-transition: border-bottom-color 0.2s ease;
+		-ms-transition: border-bottom-color 0.2s ease;
+		transition: border-bottom-color 0.2s ease;
+		display: block;
+		margin: 0 18em 0 0;
+	}
+
+	.leftauthorjeroen img {
+		border-radius: 100%;
+		display: block;
+		width: 20em;
+	}
+
+	.leftauthorjeroen:hover .name {
+		border-bottom-color: transparent;
+	}
+
+
+
+/* right Author*/
 
 /* Blurb */
 
@@ -3409,7 +3507,7 @@ input, select, textarea {
 					}
 
 						.aboutpost > header .meta .author .name {
-							margin: 1 0 0 0em;
+							margin: 4 0 0 0em;
 						}
 
 						.aboutpost > header .meta .author img {
